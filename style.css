@@ -1,0 +1,40 @@
+ body {
+    background-color: black;
+}
+
+.container-pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 98vh;
+    background-color: rgb(0, 0, 0);
+}
+.container-filho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(47, 45, 75);
+    border-radius: 30px;
+}
+.margem{
+    margin: 25px;
+    }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.resultado{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#pontuacao{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
